@@ -1,0 +1,15 @@
+Summarise your findings here (see specification).
+
+mystery2.dat is impossible to solve, I assume this because it is the only one of the .dat boards for which my program cannot return a solution.
+
+
+Determining the difficulty of mystery2 and mystery3 however is much more difficult. Firstly because my program doesn't necessarily solve
+the puzzles the way a human would, and so 'difficulty' from the human perspective is probably not well represented by my program.
+However I did draw some conclusions.
+
+Initialising global int variable to 0 and then adidng 1 on each cyle_through_board function call to measure the number of times my recursive function was called, found that:
+mystery1, total stack frames = 16408
+mystery3 total stack frames = 21540
+
+The higher number of stack frames for mystery3 suggests that mystery3.dat is potentially the 'extremely hard' puzzle and mystery1.dat is the 'hard' puzzle
+
